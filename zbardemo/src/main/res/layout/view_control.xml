@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchWrap.Vertical"
+              android:layout_alignParentBottom="true">
+
+    <LinearLayout style="@style/MatchWrap.Horizontal">
+
+        <TextView
+            android:id="@+id/start_spot"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/stop_spot"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/show_rect"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/hidden_rect"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/MatchWrap.Horizontal">
+
+        <TextView
+            android:id="@+id/start_spot_showrect"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/stop_spot_hiddenrect"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/MatchWrap.Horizontal">
+
+        <TextView
+            android:id="@+id/start_preview"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/stop_preview"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/scan_barcode"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/scan_qrcode"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/MatchWrap.Horizontal">
+
+        <TextView
+            android:id="@+id/open_flashlight"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/close_flashlight"
+            style="@style/AutoWrapTv"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/choose_qrcde_from_gallery"
+            style="@style/AutoWrapTv"
+            android:text=" "
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

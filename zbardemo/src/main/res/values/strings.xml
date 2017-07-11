@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">备孕妈妈帮</string>
+    <string name="title_activity_show">备孕妈妈帮</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menstruation">备孕妈妈帮</string>
+    <string name="menstruation_analyze">历史数据分析</string>
+    <string name="cycle">平均周期：</string>
+    <string name="sustain">平均经期：</string>
+    <string name="analyze">分析</string>
+    <string name="suggest">建议</string>
+    <string name="detail">详情</string>
+
+</resources>
